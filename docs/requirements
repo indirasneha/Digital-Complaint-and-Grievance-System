@@ -1,0 +1,58 @@
+Functional Requirements (What the system MUST do)
+
+The system shall allow users to register.
+The system shall allow users to login.
+The system shall allow users to submit complaints.
+The system shall allow admins to update complaint status.
+The system shall allow users to track complaints.
+
+## User Side Requirements
+
+* User must be able to **register**
+* User must be able to **login**
+* User must be able to **submit a complaint**
+* User must be able to **upload supporting files (optional)**
+* User must be able to **track complaint status**
+* User must receive **status updates**
+* User must be able to **view complaint history**
+
+## Admin Side Requirements
+
+* Admin must login securely
+* Admin must view all complaints
+* Admin must filter complaints (Pending / Resolved / In Progress)
+* Admin must update complaint status
+* Admin must respond to complaints
+* Admin must maintain centralized dashboard
+
+Non-Functional Requirements (How the system should behave)
+
+The system shall respond within 3 seconds.
+The system shall ensure secure login authentication.
+The system shall support at least 100 concurrent users.
+
+* System should be user-friendly
+* Should allow real-time tracking
+* Should improve transparency
+* Should be scalable
+* Should be maintainable
+* Must be web-based
+* Should handle multiple users
+* Secure authentication 
+* Fast response time
+
+User Requirements (What users expect)
+
+Normal User expects:
+* Easy complaint submission
+* Clear status visibility
+* Fast response
+* No complicated UI
+
+Admin expects:
+* Organized dashboard
+* Easy filtering
+* Quick status update option
+* Clear complaint details
+
+
