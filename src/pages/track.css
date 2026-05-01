@@ -1,0 +1,65 @@
+.container {
+  padding: 20px;
+}
+
+.complaint-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.complaint-table th,
+.complaint-table td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+}
+
+.complaint-table th {
+  background-color: #f4f4f4;
+}
+
+/* 🔵 PROGRESS BAR */
+.progress {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+/* 🔵 DOT */
+.dot {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+/* ✅ COMPLETED */
+.dot.active {
+  background-color: green;
+}
+
+/* ❌ REJECTED */
+.dot.reject {
+  background-color: red;
+}
+
+/* ➖ LINE BETWEEN DOTS */
+.line {
+  width: 40px;
+  height: 3px;
+  background-color: #ccc;
+}
+
+.line.active {
+  background-color: green;
+}
+
+/* 📝 LABELS */
+.progress-text {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  margin-top: 5px;
+}
